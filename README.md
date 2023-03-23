@@ -13,7 +13,8 @@ Get "Hello People" - <br/>
 
 Post - <br/>
 
-```{
+```
+{
     "operation": "create",
     "tableName": "lambda-apigateway", 
     "payload": {
@@ -26,4 +27,17 @@ Post - <br/>
 ```
 
 ![POST Method](/POST.jpeg)
+
+List - To get all the inserted items in the dynamoDB table.<br/>
+
+```
+{
+    "operation": "list",
+    "tableName": "lambda-apigateway",
+    "payload": {
+    }
+}
+```
+
+![List Operation using POST method](/LIST.jpeg)
   
