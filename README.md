@@ -23,6 +23,7 @@ Post - <br/>
         }
     }
 }
+```
 
 ![POST Method](/POST.jpeg)
   
