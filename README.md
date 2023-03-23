@@ -8,3 +8,21 @@ Implementation of basic GET and POST APIs on the resources of DynamoDB using AWS
 - Deploy API <br/>
 - Test it using POSTMAN <br/>
 
+Get "Hello People" - <br/>
+![GET Method](/GET.jpeg)
+
+Post - <br/>
+
+```{
+    "operation": "create",
+    "tableName": "lambda-apigateway", 
+    "payload": {
+        "Item": {
+            "id": "1234ABCD",
+            "number": 5
+        }
+    }
+}
+
+![POST Method](/POST.jpeg)
+  
